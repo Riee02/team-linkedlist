@@ -99,5 +99,34 @@ void hapusBarang(toko*& head,int id) {
         cout << "Barang dengan index ID " << id << " berhasil dihapus.\n";
     }
 
+void editBarang(toko* head, int idEdit) {
+    if (head == nullptr) {
+        cout << "Daftar kosong, tidak ada yang bisa diedit.\n";
+        return;
+    }
+
+    toko* temp = head;
+    while (temp != nullptr && temp->id != idEdit) {
+        temp = temp->next;
+    }
+
+    if (temp == nullptr) {
+        cout << "Barang dengan ID " << idEdit << " tidak ditemukan.\n";
+        return;
+    }
+
+    cout << "Barang ditemukan. Silakan masukkan data baru:\n";
+    cin.ignore();
+    cout << "Nama baru     : ";
+    getline(cin, temp->nama);
+    cout << "Kategori baru : ";
+    getline(cin, temp->kategori);
+    cout << "Harga baru    : ";
+    getline(cin, temp->harga);
+    cout << "Stok baru     : ";
+    cin >> temp->stok;
+
+    cout << "Barang berhasil diperbarui!\n";
+}
 
 int main()
