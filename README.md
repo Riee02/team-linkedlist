@@ -1,4 +1,4 @@
-# Project Toko Komputer (Linked List)
+# Project Inventory Toko Komputer (Linked List)
 
 ## Deskripsi
 Project ini merupakan **LinkedList** dengan pengerjaan berbasis kelompok dengan beranggotakan yaitu:  
@@ -23,3 +23,4 @@ Berikut adalah komen menu yang ada di program ini saat di jalankan
 5. Insert Barang   
    Masukkan Pilihan:...  
  
+sybau
