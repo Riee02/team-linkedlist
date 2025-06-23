@@ -14,7 +14,7 @@ Project ini merupakan **LinkedList** dengan pengerjaan berbasis kelompok dengan 
 - **Edit Barang** Mengedit barang yang telah di tambahkan
 - **Insert Barang** Menyisipkan barang baru ke list 
 
-**Menu Toko Komputer**   
+## Menu Toko Komputer
 Berikut adalah komen menu yang ada di program ini saat di jalankan
 1. Tampilkan Barang
 2. Tambahkan Barang Baru
@@ -22,5 +22,4 @@ Berikut adalah komen menu yang ada di program ini saat di jalankan
 4. Edit Barang
 5. Insert Barang   
    Masukkan Pilihan:...  
- 
-sybau
+
